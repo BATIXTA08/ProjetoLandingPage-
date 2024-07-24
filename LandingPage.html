@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page 1</title>
+
+    <style>
+        body{
+           background-color: black;
+           color: rgb(230, 230, 230);
+           font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+           max width: 1200px;
+           margin: 0 auto;
+           padding: 15px;
+        }
+
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        li{
+            display: inline-block;
+            margin: 20px;
+        }
+
+        a{
+            color: rgb(255, 255, 255);
+        }
+
+        #titulo{
+            flex-direction: column;
+        }
+
+        main{
+            display: flex;
+            flex-direction: row;
+            margin-top: 50px;
+        }
+
+        h2{
+            font-size: 48px;
+            line-height: 10px;
+            color: blueviolet;
+        }
+
+        p{
+            line-height: 20px;
+            max-width: 500px;
+        }
+
+        img{
+            width: 580px;
+        }
+
+        a:hover{
+            color: blueviolet;
+            transition: color 0.3 cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 70px;
+        }
+
+        input{
+            height: 15px;
+            padding: 15px;
+            border-radius: 20px;
+            border: none;
+            font-size: 15px;
+        } 
+        
+        button{
+            height: 50px;
+            width: 350px;
+            background-color: blueviolet;
+            color: rgb(236, 236, 236);
+            font-weight: bold;
+            border-radius: 20px;
+            border: none;
+
+        }
+
+        button:hover{
+            background-color: rgb(104, 34, 139);
+        }
+
+    </style>
+</head>
+<body>
+
+     <header>
+        <div id="titulo">
+            <h1>Marketing</h1>
+            <h1>Digital</h1>
+        </div>
+
+        <ul>
+            <a href="#"><li>Inicio</li></a>
+            <a href="#"><li>Sobre</li></a>
+            <a href="#"><li>Serviços</li></a>
+            <a href="#"><li>Contatos</li></a>
+        </ul>
+     </header>
+
+     <main>
+        <aside>
+            <h2>Inscreva-se agora</h2>
+            <h2>Em nosso Curso</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fugit natus tempora odio consectetur libero laborum alias non ipsum aspernatur et, eligendi, officia, molestiae quidem repellendus consequatur repudiandae consequuntur rerum.</p>
+
+
+
+            <form> 
+                <input type="text" placeholder="Nome"><br>
+                <input type="email" placeholder="E-mail"><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </aside>
+
+        <article>
+            <img src="imagem.png" alt="imagem da página">
+        </article>
+     
+    </main>
+</body>
+</html>
